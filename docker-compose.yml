@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  job-creator:
+    image: job-creator
+    restart: on-failure
+    build:
+      context: jobCreator
+      dockerfile: Dockerfile
+    ports:
+    - "4653:80"
+
+  sending-queue:
+    image: sending-queue
+    restart: on-failure
+    build:
+      context: sendingQueue
+      dockerfile: Dockerfile
+
+  sending-service:
+    image: sending-service
+    restart: on-failure
+    build:
+      context: sendingService
+      dockerfile: Dockerfile
+
+  sending-result:
+    image: sending-result
+    restart: on-failure
+    build:
+      context: sendingResult
+      dockerfile: Dockerfile

@@ -1,0 +1,10 @@
+{
+    "mongo" : {
+        "connectionString" : "172.17.0.1:27017",
+        "commandTimeout": 10
+    },
+    "rabbitMq":{
+        "connectionString" : "amqp://guest:guest@172.17.0.1:5672/"
+    },
+    "pipelineID" : 42
+}

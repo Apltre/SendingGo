@@ -1,0 +1,9 @@
+{
+    "mongo" : {
+        "connectionString" : "172.17.0.1:27017",
+        "commandTimeout": 10
+    },
+    "api": {
+        "port": 80
+    }
+}

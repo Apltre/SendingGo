@@ -1,0 +1,18 @@
+{
+    "operationId": 1300,
+    "status": 0,
+    "data": {
+        "agentsAuthData": {
+            "login": "user1",
+            "password": "12345678",
+            "url": "https://run.mocky.io/v3/45703776-fdf6-4cfc-92aa-a06537b14fd3"
+        },
+        "data": "{\"message\":\"hello world!\"}",
+        "url": "https://run.mocky.io/v3/45703776-fdf6-4cfc-92aa-a06537b14fd3"
+    },
+    "sendingAttemptIndex": 0,
+    "sendingError": null,
+    "pipelineId": 42,
+    "startAt": "2020-09-23T19:54:45.914Z",
+    "processedDate": null
+}
